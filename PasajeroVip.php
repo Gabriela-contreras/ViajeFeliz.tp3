@@ -13,7 +13,7 @@ class PasajeroVip extends Pasajero
     }
 public function __toString(){
 
-    return "😊 Pasajero" . "\n" .
+    return " 😄 Pasajero" . "\n" .
     "Nombre : " . $this->getNombre(). "\n". 
     "Apellido : " . $this->getApellido(). "\n" . 
     "Numero de Documento :" . $this->getNumDoc().

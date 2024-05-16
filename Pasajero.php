@@ -25,7 +25,7 @@ class Pasajero
     public function __toString()
     {
         return
-            "😊 Pasajero" . "\n" .
+            " 😄 Pasajero" . "\n" .
             "Nombre: " . $this->getNombre() . "\n" .
             "Apellido: " . $this->getApellido() . "\n" .
             "Número de documento: " . $this->getNumDoc() . "\n" .
